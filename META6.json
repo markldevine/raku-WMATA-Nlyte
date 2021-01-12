@@ -1,0 +1,22 @@
+{
+    "auth":         "github:markldevine",
+    "authors":      [ "Mark Devine <mark@markdevine.com>" ],
+    "depends":      [
+        "Cro::HTTP"
+    ],
+    "description":  "WMATA: Nlyte service",
+    "license":      "Artistic-2.0",
+    "meta-version": 0,
+    "name":         "WMATA::Nlyte",
+    "perl":         "6.*",
+    "provides":     {
+        "WMATA::Nlyte::Application.pm6": "lib/WMATA/Nlyte/Application.pm6"
+    },
+    "resources":    [],
+    "source-url":   "https://github.com/markldevine/raku-WMATA-Nlyte.git",
+    "support": {
+        "source": "Write me!"
+    },
+    "tags":         [],
+    "version":      "0.0.1"
+}
