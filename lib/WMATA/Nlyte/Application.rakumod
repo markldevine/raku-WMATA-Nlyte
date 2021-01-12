@@ -1,7 +1,8 @@
-unit class Application:ver<0.0.1>:auth<Mark Devine (mark@markdevine.com)>;
+unit class WMATA::Nlyte::Application:ver<0.0.1>:auth<Mark Devine (mark@markdevine.com)>;
 
 use Cro::HTTP::Router;
 use Cro::HTTP::Client;
+use Redis;
 
 has $.redis;
 
@@ -16,7 +17,7 @@ my $http-client = Cro::HTTP::Client.new(
 
 method routes () {
     route {
-        get -> 'HIPH'       { content 'text/json', self.redis.get('HIPH');
+        get -> 'HIPH'       { content 'text/json', self.redis.get('HIPH'); }
     }
 }
 

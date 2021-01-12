@@ -1,0 +1,318 @@
+{
+  "Server-9040-MR9-SN78AE6EX": {
+    "Model": "MR9",
+    "MachineType": "9040",
+    "InstalledSystemProcessorUnits": "48",
+    "ConfigurableSystemMemory": "2097152",
+    "CurrentAvailableSystemMemory": "1316352",
+    "CurrentAvailableSystemProcessorUnits": "9.8",
+    "InstalledSystemMemory": "2097152",
+    "ConfigurableSystemProcessorUnits": "36",
+    "LogicalPartition": {
+      "p590a5_decom": {
+        "OperatingSystemVersion": "Unknown",
+        "CurrentProcessingUnits": "0"
+      },
+      "jadbiamprd01": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "1.6"
+      },
+      "jaapfareprd25": {
+        "CurrentProcessingUnits": "1.6",
+        "OperatingSystemVersion": "Unknown"
+      },
+      "jatsmprd04": {
+        "CurrentProcessingUnits": "1.2",
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028"
+      },
+      "p590a3": {
+        "CurrentProcessingUnits": "1.6",
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028"
+      },
+      "p595a13": {
+        "CurrentProcessingUnits": "0.8",
+        "OperatingSystemVersion": "AIX 7.2 7200-05-01-2038"
+      },
+      "jaapfareprd27": {
+        "OperatingSystemVersion": "Unknown",
+        "CurrentProcessingUnits": "1.6"
+      },
+      "p590a2": {
+        "OperatingSystemVersion": "Unknown",
+        "CurrentProcessingUnits": "1.6"
+      },
+      "jaapfareprd26": {
+        "OperatingSystemVersion": "Unknown",
+        "CurrentProcessingUnits": "1.6"
+      },
+      "decom_jadbmaxprd01": {
+        "CurrentProcessingUnits": "1.6",
+        "OperatingSystemVersion": "Unknown"
+      },
+      "jatsmprd03": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "1.6"
+      },
+      "jadbcgnprd01": {
+        "CurrentProcessingUnits": "1.6",
+        "OperatingSystemVersion": "AIX 7.2 7200-04-02-2028"
+      },
+      "p770adoc3": {
+        "CurrentProcessingUnits": "1.6",
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028"
+      },
+      "p590a1": {
+        "OperatingSystemVersion": "AIX 7.2 7200-05-01-2038",
+        "CurrentProcessingUnits": "1.6"
+      },
+      "p590a4": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-07-2038",
+        "CurrentProcessingUnits": "3.2"
+      },
+      "p590a10": {
+        "OperatingSystemVersion": "AIX 7.2 7200-04-02-2028",
+        "CurrentProcessingUnits": "2.4"
+      }
+    },
+    "SerialNumber": "78AE6EX",
+    "MemoryUsedByHypervisor": "37376"
+  },
+  "Server-9040-MR9-SN78AE6DX": {
+    "CurrentAvailableSystemMemory": "1632000",
+    "MemoryUsedByHypervisor": "27904",
+    "CurrentAvailableSystemProcessorUnits": "14",
+    "InstalledSystemProcessorUnits": "48",
+    "SerialNumber": "78AE6DX",
+    "ConfigurableSystemMemory": "2097152",
+    "ConfigurableSystemProcessorUnits": "36",
+    "LogicalPartition": {
+      "jaappsprd07": {
+        "CurrentProcessingUnits": "1",
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028"
+      },
+      "p595a29": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "3.2"
+      },
+      "p650nimjgb": {
+        "CurrentProcessingUnits": "2.8",
+        "OperatingSystemVersion": "AIX 7.2 7200-05-01-2038"
+      },
+      "jaapfareprd29": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "1.6"
+      },
+      "p595a27": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-07-2038",
+        "CurrentProcessingUnits": "3.2"
+      },
+      "p595a14": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "2"
+      },
+      "jadbhcmprd01": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "2.4"
+      },
+      "p770c23": {
+        "CurrentProcessingUnits": "1.6",
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028"
+      },
+      "p770c11": {
+        "OperatingSystemVersion": "Unknown",
+        "CurrentProcessingUnits": "1.6"
+      },
+      "jaapfareprd28": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "1.6"
+      }
+    },
+    "MachineType": "9040",
+    "Model": "MR9",
+    "InstalledSystemMemory": "2097152"
+  },
+  "Server-9040-MR9-SN78AE70X": {
+    "InstalledSystemProcessorUnits": "48",
+    "CurrentAvailableSystemProcessorUnits": "18",
+    "CurrentAvailableSystemMemory": "1747968",
+    "MachineType": "9040",
+    "ConfigurableSystemMemory": "2097152",
+    "MemoryUsedByHypervisor": "26624",
+    "ConfigurableSystemProcessorUnits": "36",
+    "LogicalPartition": {
+      "jaappsprd06": {
+        "CurrentProcessingUnits": "0.8",
+        "OperatingSystemVersion": "AIX 7.2 7200-04-02-2028"
+      },
+      "jcentos8t": {
+        "OperatingSystemVersion": "Unknown",
+        "CurrentProcessingUnits": "0.2"
+      },
+      "jaappsprd01": {
+        "CurrentProcessingUnits": "1",
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028"
+      },
+      "jatsmprd05": {
+        "CurrentProcessingUnits": "2",
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028"
+      },
+      "jcentos7t": {
+        "OperatingSystemVersion": "Unknown",
+        "CurrentProcessingUnits": "0.2"
+      },
+      "janimprd01": {
+        "OperatingSystemVersion": "AIX 7.2 7200-04-02-2028",
+        "CurrentProcessingUnits": "2.4"
+      },
+      "jlpowervc": {
+        "CurrentProcessingUnits": "0.2",
+        "OperatingSystemVersion": "Unknown"
+      },
+      "jaapfareprd12": {
+        "CurrentProcessingUnits": "0.8",
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028"
+      },
+      "jadbelmprd01": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "1.6"
+      },
+      "jrhel81t": {
+        "OperatingSystemVersion": "Unknown",
+        "CurrentProcessingUnits": "0.2"
+      },
+      "jaapfaredev05": {
+        "CurrentProcessingUnits": "1",
+        "OperatingSystemVersion": "AIX 7.1 7100-05-07-2038"
+      },
+      "jaappsprd02": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "1"
+      },
+      "p590a6": {
+        "CurrentProcessingUnits": "2.4",
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028"
+      },
+      "jubuntu18t": {
+        "CurrentProcessingUnits": "0.2",
+        "OperatingSystemVersion": "Unknown"
+      },
+      "jaappsprd05": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "0.8"
+      },
+      "jaappsprd03": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "0.8"
+      },
+      "jrhel77t": {
+        "CurrentProcessingUnits": "0.2",
+        "OperatingSystemVersion": "Linux/Red Hat Enterprise Linux Server 3.10.0-1062.9.1.el7.ppc647.7 (Maipo) 7.7 (Maipo)"
+      },
+      "jfedora31t": {
+        "CurrentProcessingUnits": "0.2",
+        "OperatingSystemVersion": "Unknown"
+      },
+      "jaappsprd04": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "0.8"
+      },
+      "josl151t": {
+        "OperatingSystemVersion": "Unknown",
+        "CurrentProcessingUnits": "0.2"
+      }
+    },
+    "SerialNumber": "78AE70X",
+    "Model": "MR9",
+    "InstalledSystemMemory": "2097152"
+  },
+  "Server-9040-MR9-SN78AE6FX": {
+    "MachineType": "9040",
+    "ConfigurableSystemMemory": "2097152",
+    "ConfigurableSystemProcessorUnits": "36",
+    "InstalledSystemMemory": "2097152",
+    "CurrentAvailableSystemMemory": "1387008",
+    "SerialNumber": "78AE6FX",
+    "MemoryUsedByHypervisor": "32000",
+    "Model": "MR9",
+    "LogicalPartition": {
+      "jaapfareqa10": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "0.8"
+      },
+      "jaapfareprd03": {
+        "CurrentProcessingUnits": "1",
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028"
+      },
+      "jaapfaredev03": {
+        "CurrentProcessingUnits": "1",
+        "OperatingSystemVersion": "Unknown"
+      },
+      "decom_p770a9": {
+        "CurrentProcessingUnits": "1",
+        "OperatingSystemVersion": "Unknown"
+      },
+      "jaapfareprd05": {
+        "CurrentProcessingUnits": "1",
+        "OperatingSystemVersion": "Unknown"
+      },
+      "jaapfareprd10": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "1"
+      },
+      "jatsmprd02": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "1.6"
+      },
+      "p770sysd1": {
+        "OperatingSystemVersion": "AIX 7.2 7200-04-02-2028",
+        "CurrentProcessingUnits": "3.2"
+      },
+      "jaapfaredev02": {
+        "OperatingSystemVersion": "Unknown",
+        "CurrentProcessingUnits": "1"
+      },
+      "p770a12": {
+        "OperatingSystemVersion": "Unknown",
+        "CurrentProcessingUnits": "1.5"
+      },
+      "p770a23": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "1.6"
+      },
+      "decom_p770a8": {
+        "OperatingSystemVersion": "Unknown",
+        "CurrentProcessingUnits": "1"
+      },
+      "p770a11": {
+        "CurrentProcessingUnits": "1.5",
+        "OperatingSystemVersion": "Unknown"
+      },
+      "jaapfareprd30": {
+        "CurrentProcessingUnits": "1.6",
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028"
+      },
+      "jaapfareprd06": {
+        "OperatingSystemVersion": "Unknown",
+        "CurrentProcessingUnits": "1"
+      },
+      "jaapfareprd04": {
+        "CurrentProcessingUnits": "1",
+        "OperatingSystemVersion": "Unknown"
+      },
+      "aixtest": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-07-2038",
+        "CurrentProcessingUnits": "0.4"
+      },
+      "p770a21": {
+        "CurrentProcessingUnits": "3.2",
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028"
+      },
+      "p770a22": {
+        "OperatingSystemVersion": "AIX 7.1 7100-05-06-2028",
+        "CurrentProcessingUnits": "1.6"
+      }
+    },
+    "CurrentAvailableSystemProcessorUnits": "8.5",
+    "InstalledSystemProcessorUnits": "48"
+  }
+}
