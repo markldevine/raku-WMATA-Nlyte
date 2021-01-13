@@ -17,7 +17,10 @@ my $http-client = Cro::HTTP::Client.new(
 
 method routes () {
     route {
-        get -> 'HIPH'       { content 'text/json', self.redis.get('HIPH'); }
+        get -> 'cahmc1' { content 'text/json', self.redis.get('cahmc1'); }
+        get -> 'cahmc2' { content 'text/json', self.redis.get('cahmc2'); }
+        get -> 'jahmc1' { content 'text/json', self.redis.get('jahmc1'); }
+        get -> 'jahmc2' { content 'text/json', self.redis.get('jahmc2'); }
     }
 }
 

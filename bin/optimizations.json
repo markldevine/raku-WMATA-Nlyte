@@ -1,0 +1,38 @@
+{
+  "ATTRIBUTE": {
+    "get_value": {
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::AssociatedSystemProcessorConfiguration": {
+        "ConfigurableSystemProcessorUnits": 1,
+        "CurrentAvailableSystemProcessorUnits": 1,
+        "InstalledSystemProcessorUnits": 1
+      },
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem": {
+        "AssociatedSystemProcessorConfiguration": 1,
+        "AssociatedSystemMemoryConfiguration": 1,
+        "LogicalPartitions": 1,
+        "MachineTypeModelAndSerialNumber": 1
+      },
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::LogicalPartitions::LogicalPartition::PartitionProcessorConfiguration": {
+        "CurrentSharedProcessorConfiguration": 1
+      },
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::LogicalPartitions::LogicalPartition": {
+        "PartitionProcessorConfiguration": 1,
+        "OperatingSystemVersion": 1
+      },
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::AssociatedSystemMemoryConfiguration": {
+        "ConfigurableSystemMemory": 1,
+        "MemoryUsedByHypervisor": 1,
+        "CurrentAvailableSystemMemory": 1,
+        "InstalledSystemMemory": 1
+      },
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::MachineTypeModelAndSerialNumber": {
+        "SerialNumber": 1,
+        "Model": 1,
+        "MachineType": 1
+      },
+      "Hypervisor::IBM::POWER::HMC::REST::ManagedSystems::ManagedSystem::LogicalPartitions::LogicalPartition::PartitionProcessorConfiguration::CurrentSharedProcessorConfiguration": {
+        "CurrentProcessingUnits": 1
+      }
+    }
+  }
+}
