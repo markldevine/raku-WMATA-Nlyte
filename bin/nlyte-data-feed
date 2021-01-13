@@ -16,7 +16,7 @@ my %options;
 %options<optimize>  = False;
 #%options<optimize>  = True;
 
-for <jahmc2 cahmc2> {
+for <cahmc1 cahmc2 jahmc1 jahmc2> {
     feed($_);
 }
 
@@ -46,7 +46,7 @@ sub feed (Str:D $hmc) {
         }
     }
     my $redis = Redis.new("127.0.0.1:6379");
-    $redis.set($hmc, to-json(%data));
+    $redis.setex($hmc, 3600, to-json(%data));
 #   $mc.config.optimizations.stash; die;
 }
 
