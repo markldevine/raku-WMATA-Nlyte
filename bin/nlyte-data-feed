@@ -1,6 +1,5 @@
 #!/usr/bin/env raku
 
-use     Data::Dump::Tree;
 use     Redis;
 use     JSON::Fast;
 use     Hypervisor::IBM::POWER::HMC::REST::Config::Options;
@@ -14,37 +13,41 @@ my %options;
 %options<off-line>  = True;  #%%% testing only
 %options<user-id>   = 'hscroot';
 %options<no-pid>    = True;
+%options<optimize>  = False;
+#%options<optimize>  = True;
 
-for <jahmc2 cahmc2> { feed($_); }
+for <jahmc2 cahmc2> {
+    feed($_);
+}
 
 sub feed (Str:D $hmc) {
     %options<hmc>       = $hmc;
     my $mc = Hypervisor::IBM::POWER::HMC::REST::HMC.new(:options(Hypervisor::IBM::POWER::HMC::REST::Config::Options.new(|Map.new(%options.kv))));
-    %options<optimize>  = False;
     $mc.ManagedSystems.init;
     $mc.ManagedSystems.Initialize-Logical-Partitions;
     #$mc.ManagedSystems.Initialize-Virtual-IO-Servers;
     my %data;
     for $mc.ManagedSystems.Managed-Systems-Names -> $managed-system-name {
-        my $managed-system = $mc.ManagedSystems.Managed-System-by-SystemName($managed-system-name);
-        %data{$managed-system-name}<MachineType> = $managed-system.MachineTypeModelAndSerialNumber.MachineType;
-        %data{$managed-system-name}<Model> = $managed-system.MachineTypeModelAndSerialNumber.Model;
-        %data{$managed-system-name}<SerialNumber> = $managed-system.MachineTypeModelAndSerialNumber.SerialNumber;
-        %data{$managed-system-name}<InstalledSystemProcessorUnits> = $managed-system.AssociatedSystemProcessorConfiguration.InstalledSystemProcessorUnits;
-        %data{$managed-system-name}<ConfigurableSystemProcessorUnits> = $managed-system.AssociatedSystemProcessorConfiguration.ConfigurableSystemProcessorUnits;
-        %data{$managed-system-name}<CurrentAvailableSystemProcessorUnits> = $managed-system.AssociatedSystemProcessorConfiguration.CurrentAvailableSystemProcessorUnits;
-        %data{$managed-system-name}<InstalledSystemMemory> = $managed-system.AssociatedSystemMemoryConfiguration.InstalledSystemMemory;
-        %data{$managed-system-name}<ConfigurableSystemMemory> = $managed-system.AssociatedSystemMemoryConfiguration.ConfigurableSystemMemory;
-        %data{$managed-system-name}<CurrentAvailableSystemMemory> = $managed-system.AssociatedSystemMemoryConfiguration.CurrentAvailableSystemMemory;
-        %data{$managed-system-name}<MemoryUsedByHypervisor> = $managed-system.AssociatedSystemMemoryConfiguration.MemoryUsedByHypervisor;
+        my $managed-system                                                                      = $mc.ManagedSystems.Managed-System-by-SystemName($managed-system-name);
+        %data{$managed-system-name}<MachineType>                                                = $managed-system.MachineTypeModelAndSerialNumber.MachineType;
+        %data{$managed-system-name}<Model>                                                      = $managed-system.MachineTypeModelAndSerialNumber.Model;
+        %data{$managed-system-name}<SerialNumber>                                               = $managed-system.MachineTypeModelAndSerialNumber.SerialNumber;
+        %data{$managed-system-name}<InstalledSystemProcessorUnits>                              = $managed-system.AssociatedSystemProcessorConfiguration.InstalledSystemProcessorUnits;
+        %data{$managed-system-name}<ConfigurableSystemProcessorUnits>                           = $managed-system.AssociatedSystemProcessorConfiguration.ConfigurableSystemProcessorUnits;
+        %data{$managed-system-name}<CurrentAvailableSystemProcessorUnits>                       = $managed-system.AssociatedSystemProcessorConfiguration.CurrentAvailableSystemProcessorUnits;
+        %data{$managed-system-name}<InstalledSystemMemory>                                      = $managed-system.AssociatedSystemMemoryConfiguration.InstalledSystemMemory;
+        %data{$managed-system-name}<ConfigurableSystemMemory>                                   = $managed-system.AssociatedSystemMemoryConfiguration.ConfigurableSystemMemory;
+        %data{$managed-system-name}<CurrentAvailableSystemMemory>                               = $managed-system.AssociatedSystemMemoryConfiguration.CurrentAvailableSystemMemory;
+        %data{$managed-system-name}<MemoryUsedByHypervisor>                                     = $managed-system.AssociatedSystemMemoryConfiguration.MemoryUsedByHypervisor;
         for $mc.ManagedSystems.Managed-System-by-SystemName($managed-system-name).LogicalPartitions.Logical-Partition-Names -> $lpar-name {
-            my $lpar = $mc.ManagedSystems.Managed-System-by-SystemName($managed-system-name).LogicalPartitions.Logical-Partition-by-Name($lpar-name);
-            %data{$managed-system-name}<LogicalPartition>{$lpar-name}<OperatingSystemVersion> = $lpar.OperatingSystemVersion;
-            %data{$managed-system-name}<LogicalPartition>{$lpar-name}<CurrentProcessingUnits> = $lpar.PartitionProcessorConfiguration.CurrentSharedProcessorConfiguration.CurrentProcessingUnits;
+            my $lpar                                                                            = $managed-system.LogicalPartitions.Logical-Partition-by-Name($lpar-name);
+            %data{$managed-system-name}<LogicalPartition>{$lpar-name}<OperatingSystemVersion>   = $lpar.OperatingSystemVersion;
+            %data{$managed-system-name}<LogicalPartition>{$lpar-name}<CurrentProcessingUnits>   = $lpar.PartitionProcessorConfiguration.CurrentSharedProcessorConfiguration.CurrentProcessingUnits;
         }
     }
     my $redis = Redis.new("127.0.0.1:6379");
     $redis.set($hmc, to-json(%data));
+#   $mc.config.optimizations.stash; die;
 }
 
 =finish
