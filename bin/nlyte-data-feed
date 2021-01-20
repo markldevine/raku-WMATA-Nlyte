@@ -2,6 +2,7 @@
 
 use     Redis;
 use     JSON::Fast;
+use     LibXML;
 use     Hypervisor::IBM::POWER::HMC::REST::Config::Options;
 need    Hypervisor::IBM::POWER::HMC::REST::HMC;
 
@@ -16,38 +17,118 @@ my %options;
 %options<optimize>  = False;
 #%options<optimize>  = True;
 
-for <cahmc1 cahmc2 jahmc1 jahmc2> {
-    feed($_);
-}
+my $redis           = Redis.new("127.0.0.1:6379");
 
-sub feed (Str:D $hmc) {
-    %options<hmc>       = $hmc;
-    my $mc = Hypervisor::IBM::POWER::HMC::REST::HMC.new(:options(Hypervisor::IBM::POWER::HMC::REST::Config::Options.new(|Map.new(%options.kv))));
-    $mc.ManagedSystems.init;
-    $mc.ManagedSystems.Initialize-Logical-Partitions;
-    #$mc.ManagedSystems.Initialize-Virtual-IO-Servers;
-    my %data;
-    for $mc.ManagedSystems.Managed-Systems-Names -> $managed-system-name {
-        my $managed-system                                                                      = $mc.ManagedSystems.Managed-System-by-SystemName($managed-system-name);
-        %data{$managed-system-name}<MachineType>                                                = $managed-system.MachineTypeModelAndSerialNumber.MachineType;
-        %data{$managed-system-name}<Model>                                                      = $managed-system.MachineTypeModelAndSerialNumber.Model;
-        %data{$managed-system-name}<SerialNumber>                                               = $managed-system.MachineTypeModelAndSerialNumber.SerialNumber;
-        %data{$managed-system-name}<InstalledSystemProcessorUnits>                              = $managed-system.AssociatedSystemProcessorConfiguration.InstalledSystemProcessorUnits;
-        %data{$managed-system-name}<ConfigurableSystemProcessorUnits>                           = $managed-system.AssociatedSystemProcessorConfiguration.ConfigurableSystemProcessorUnits;
-        %data{$managed-system-name}<CurrentAvailableSystemProcessorUnits>                       = $managed-system.AssociatedSystemProcessorConfiguration.CurrentAvailableSystemProcessorUnits;
-        %data{$managed-system-name}<InstalledSystemMemory>                                      = $managed-system.AssociatedSystemMemoryConfiguration.InstalledSystemMemory;
-        %data{$managed-system-name}<ConfigurableSystemMemory>                                   = $managed-system.AssociatedSystemMemoryConfiguration.ConfigurableSystemMemory;
-        %data{$managed-system-name}<CurrentAvailableSystemMemory>                               = $managed-system.AssociatedSystemMemoryConfiguration.CurrentAvailableSystemMemory;
-        %data{$managed-system-name}<MemoryUsedByHypervisor>                                     = $managed-system.AssociatedSystemMemoryConfiguration.MemoryUsedByHypervisor;
-        for $mc.ManagedSystems.Managed-System-by-SystemName($managed-system-name).LogicalPartitions.Logical-Partition-Names -> $lpar-name {
-            my $lpar                                                                            = $managed-system.LogicalPartitions.Logical-Partition-by-Name($lpar-name);
-            %data{$managed-system-name}<LogicalPartition>{$lpar-name}<OperatingSystemVersion>   = $lpar.OperatingSystemVersion;
-            %data{$managed-system-name}<LogicalPartition>{$lpar-name}<CurrentProcessingUnits>   = $lpar.PartitionProcessorConfiguration.CurrentSharedProcessorConfiguration.CurrentProcessingUnits;
+my %sites                       = (
+                                    CTF => ['cahmc1','cahmc2'],
+                                    JGB => ['jahmc1','jahmc2'],
+                                  );
+
+my LibXML::Document $doc       .= new: :version("1.0"), :enc("UTF-8");
+my LibXML::Element  $root      .= new: :name<IBM-POWER-SYSTEMS>;
+$doc.documentElement = $root;
+my LibXML::Element  $sites     .= new: 'sites';
+$root.appendChild:  $sites;
+
+for %sites.keys.sort -> $site-name {
+    my LibXML::Element $site   .= new: $site-name;
+    $sites.appendChild: $site;
+    my LibXML::Element $hmcs   .= new: 'Hardware-Management-Consoles';
+    $site.appendChild:  $hmcs;
+    for %sites{$site-name} -> @hmc-names {
+        for @hmc-names -> $hmc-name {
+            my LibXML::Element $hmc .= new: $hmc-name;
+            $hmcs.appendChild: $hmc;
+            %options<hmc>       = $hmc-name;
+            my $mc = Hypervisor::IBM::POWER::HMC::REST::HMC.new(:options(Hypervisor::IBM::POWER::HMC::REST::Config::Options.new(|Map.new(%options.kv))));
+            $mc.ManagedSystems.init;
+            $mc.ManagedSystems.Initialize-Logical-Partitions;
+            #$mc.ManagedSystems.Initialize-Virtual-IO-Servers;
+            my %data;
+            my LibXML::Element $managed-systems .= new: 'Managed-Systems';
+            $hmc.appendChild: $managed-systems;
+            for $mc.ManagedSystems.Managed-Systems-Names -> $managed-system-name {
+                my $managed-system-obj                                              = $mc.ManagedSystems.Managed-System-by-SystemName($managed-system-name);
+                my LibXML::Element $managed-system                                 .= new: $managed-system-name;
+                $managed-systems.appendChild: $managed-system;
+
+                %data{$managed-system-name}<MachineType>                            = $managed-system-obj.MachineTypeModelAndSerialNumber.MachineType;
+                my LibXML::Element $MachineType                                    .= new: 'MachineType';
+                $managed-system.appendChild: $MachineType;
+                $MachineType.nodeValue                                              = %data{$managed-system-name}<MachineType>;
+
+                %data{$managed-system-name}<Model>                                  = $managed-system-obj.MachineTypeModelAndSerialNumber.Model;
+                my LibXML::Element $Model                                          .= new: 'Model';
+                $managed-system.appendChild: $Model;
+                $Model.nodeValue                                                    = %data{$managed-system-name}<Model>;
+
+                %data{$managed-system-name}<SerialNumber>                           = $managed-system-obj.MachineTypeModelAndSerialNumber.SerialNumber;
+                my LibXML::Element $SerialNumber                                   .= new: 'SerialNumber';
+                $managed-system.appendChild: $SerialNumber;
+                $SerialNumber.nodeValue                                             = %data{$managed-system-name}<SerialNumber>;
+
+                %data{$managed-system-name}<InstalledSystemProcessorUnits>          = $managed-system-obj.AssociatedSystemProcessorConfiguration.InstalledSystemProcessorUnits;
+                my LibXML::Element $InstalledSystemProcessorUnits                  .= new: 'InstalledSystemProcessorUnits';
+                $managed-system.appendChild: $InstalledSystemProcessorUnits;
+                $InstalledSystemProcessorUnits.nodeValue                            = %data{$managed-system-name}<InstalledSystemProcessorUnits>;
+
+                %data{$managed-system-name}<ConfigurableSystemProcessorUnits>       = $managed-system-obj.AssociatedSystemProcessorConfiguration.ConfigurableSystemProcessorUnits;
+                my LibXML::Element $ConfigurableSystemProcessorUnits .= new: 'ConfigurableSystemProcessorUnits';
+                $managed-system.appendChild: $ConfigurableSystemProcessorUnits;
+                $ConfigurableSystemProcessorUnits.nodeValue                         = %data{$managed-system-name}<ConfigurableSystemProcessorUnits>;
+
+                %data{$managed-system-name}<CurrentAvailableSystemProcessorUnits>   = $managed-system-obj.AssociatedSystemProcessorConfiguration.CurrentAvailableSystemProcessorUnits;
+                my LibXML::Element $CurrentAvailableSystemProcessorUnits           .= new: 'CurrentAvailableSystemProcessorUnits';
+                $managed-system.appendChild: $CurrentAvailableSystemProcessorUnits;
+                $CurrentAvailableSystemProcessorUnits.nodeValue                     = %data{$managed-system-name}<CurrentAvailableSystemProcessorUnits>;
+
+                %data{$managed-system-name}<InstalledSystemMemory>                  = $managed-system-obj.AssociatedSystemMemoryConfiguration.InstalledSystemMemory;
+                my LibXML::Element $InstalledSystemMemory                          .= new: 'InstalledSystemMemory';
+                $managed-system.appendChild: $InstalledSystemMemory;
+                $InstalledSystemMemory.nodeValue                                    = %data{$managed-system-name}<InstalledSystemMemory>;
+
+                %data{$managed-system-name}<ConfigurableSystemMemory>               = $managed-system-obj.AssociatedSystemMemoryConfiguration.ConfigurableSystemMemory;
+                my LibXML::Element $ConfigurableSystemMemory                       .= new: 'ConfigurableSystemMemory';
+                $managed-system.appendChild: $ConfigurableSystemMemory;
+                $ConfigurableSystemMemory.nodeValue                                 = %data{$managed-system-name}<ConfigurableSystemMemory>;
+
+                %data{$managed-system-name}<CurrentAvailableSystemMemory>           = $managed-system-obj.AssociatedSystemMemoryConfiguration.CurrentAvailableSystemMemory;
+                my LibXML::Element $CurrentAvailableSystemMemory                   .= new: 'CurrentAvailableSystemMemory';
+                $managed-system.appendChild: $CurrentAvailableSystemMemory;
+                $CurrentAvailableSystemMemory.nodeValue                             = %data{$managed-system-name}<CurrentAvailableSystemMemory>;
+
+                %data{$managed-system-name}<MemoryUsedByHypervisor>                 = $managed-system-obj.AssociatedSystemMemoryConfiguration.MemoryUsedByHypervisor;
+                my LibXML::Element $MemoryUsedByHypervisor                         .= new: 'MemoryUsedByHypervisor';
+                $managed-system.appendChild: $MemoryUsedByHypervisor;
+                $MemoryUsedByHypervisor.nodeValue                                   = %data{$managed-system-name}<MemoryUsedByHypervisor>;
+
+                my LibXML::Element $logical-partitions .= new: 'Logical-Partitions';
+                $managed-system.appendChild: $logical-partitions;
+
+                for $managed-system-obj.LogicalPartitions.Logical-Partition-Names -> $lpar-name {
+                    my $lpar-obj                                                    = $managed-system-obj.LogicalPartitions.Logical-Partition-by-Name($lpar-name);
+                    my LibXML::Element $logical-partition                          .= new: $lpar-name;
+                    $logical-partitions.appendChild: $logical-partition;
+
+                    %data{$managed-system-name}<LogicalPartition>{$lpar-name}<OperatingSystemVersion> = $lpar-obj.OperatingSystemVersion;
+                    my LibXML::Element $OperatingSystemVersion                     .= new: 'OperatingSystemVersion';
+                    $logical-partition.appendChild: $OperatingSystemVersion;
+                    $OperatingSystemVersion.nodeValue                               = %data{$managed-system-name}<LogicalPartition>{$lpar-name}<OperatingSystemVersion>;
+
+                    %data{$managed-system-name}<LogicalPartition>{$lpar-name}<CurrentProcessingUnits>   = $lpar-obj.PartitionProcessorConfiguration.CurrentSharedProcessorConfiguration.CurrentProcessingUnits;
+                    my LibXML::Element $CurrentProcessingUnits                     .= new: 'CurrentProcessingUnits';
+                    $logical-partition.appendChild: $CurrentProcessingUnits;
+                    $CurrentProcessingUnits.nodeValue                               = %data{$managed-system-name}<LogicalPartition>{$lpar-name}<CurrentProcessingUnits>;
+                }
+            }
+            $redis.setex($hmc-name ~ ':JSON', 3600, to-json(%data));
         }
     }
-    my $redis = Redis.new("127.0.0.1:6379");
-    $redis.setex($hmc, 3600, to-json(%data));
-#   $mc.config.optimizations.stash; die;
 }
+$redis.setex('XML',  3600, $doc.Str(:format));
+
+say $doc.Str: :format;
+
+#           $mc.config.optimizations.stash; die;
 
 =finish

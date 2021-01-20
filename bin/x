@@ -1,0 +1,33 @@
+#!/usr/bin/env raku
+
+use LibXML;
+
+my %sites                       = ( CTF => ['cahmc1','cahmc2'], JGB => ['jahmc1','jahmc2'] );
+
+my LibXML::Document $doc       .= new: :version("1.0"), :enc("UTF-8");
+my LibXML::Element  $root      .= new: :name<IBM-POWER-SYSTEMS>;
+$doc.documentElement            = $root;
+my LibXML::Element  $sites     .= new: 'sites';
+$root.appendChild:  $sites;
+
+for %sites.keys.sort -> $site-name {
+    my LibXML::Element  $site  .= new: $site-name;
+    $sites.appendChild: $site;
+    my LibXML::Element $hmcs   .= new: 'Hardware-Management-Consoles';
+    $site.appendChild: $hmcs;
+    for %sites{$site-name} -> @hmc-names {
+        for @hmc-names -> $hmc-name {
+            my LibXML::Element $hmc .= new: $hmc-name;
+            $hmcs.appendChild: $hmc;
+            my LibXML::Element $managed-systems .= new: 'Managed-Systems';
+            $hmc.appendChild: $managed-systems;
+            for <Server-9040-MR9-SN78AE71X Server-9040-MR9-SN78AE72X Server-9040-MR9-SN78AE73X Server-9040-MR9-SN78AE74X> -> $managed-system-name {
+                my LibXML::Element $managed-system .= new: $managed-system-name;
+                $managed-systems.appendChild($managed-system);
+            }
+        }
+    }
+}
+
+say $doc.Str;
+=finish
