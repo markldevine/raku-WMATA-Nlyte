@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IBM-POWER-SYSTEMS>
+  <sites>
+    <CTF>
+      <Hardware-Management-Consoles>
+        <cahmc1>
+          <Managed-Systems>
+            <Server-9040-MR9-SN78AE71X>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE71X</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>4.3</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>836352</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>57600</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <caapfareprd28>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd28>
+                <caapfareprd29>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd29>
+                <caapfareprd30>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd30>
+                <caapfareqa13>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareqa13>
+                <caappsprd02>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsprd02>
+                <caappsprd03>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsprd03>
+                <caappsprd04>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsprd04>
+                <caappsprd05>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsprd05>
+                <caappsprd06>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsprd06>
+                <caappsprd07>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsprd07>
+                <cadbcgndr01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.6</CurrentProcessingUnits>
+                </cadbcgndr01>
+                <cadbelmqat01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.5</CurrentProcessingUnits>
+                </cadbelmqat01>
+                <cadbiamdr01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </cadbiamdr01>
+                <cadbmaxprd03>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </cadbmaxprd03>
+                <cadbpsdr01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.4</CurrentProcessingUnits>
+                </cadbpsdr01>
+                <cadbpsdr02>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </cadbpsdr02>
+                <cadbpsdr03>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </cadbpsdr03>
+                <cahatest1>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </cahatest1>
+                <catsmdr01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </catsmdr01>
+                <decom_caapclmdev01>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </decom_caapclmdev01>
+                <decom_cadbclmdrr01>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.5</CurrentProcessingUnits>
+                </decom_cadbclmdrr01>
+                <decom_cadbmaxprd01>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.4</CurrentProcessingUnits>
+                </decom_cadbmaxprd01>
+                <decom_cadbmaxprd02>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.4</CurrentProcessingUnits>
+                </decom_cadbmaxprd02>
+                <decom_cadbmaxprd04>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </decom_cadbmaxprd04>
+                <decom_cadbmaxprd05>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </decom_cadbmaxprd05>
+                <p595b32>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </p595b32>
+                <p595b33>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.5</CurrentProcessingUnits>
+                </p595b33>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE71X>
+            <Server-9040-MR9-SN78AE72X>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE72X</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>3.9</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>1186816</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>44032</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <caapfaredev02>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </caapfaredev02>
+                <caapfareprd12>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd12>
+                <caappsdev01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev01>
+                <caappsdev02>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev02>
+                <caappsdev03>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev03>
+                <caappsdev04>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev04>
+                <caappsdev05>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev05>
+                <caappsdev06>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev06>
+                <caappsdev07>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev07>
+                <caappsdev08>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev08>
+                <caappsdev09>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev09>
+                <caappsdev10>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev10>
+                <caappsdev11>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev11>
+                <cadbcgndev01>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.6</CurrentProcessingUnits>
+                </cadbcgndev01>
+                <cadbhcmqat01_decom>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </cadbhcmqat01_decom>
+                <cadbiamdev01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </cadbiamdev01>
+                <cahatest2>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.8</CurrentProcessingUnits>
+                </cahatest2>
+                <catsmdev01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.2</CurrentProcessingUnits>
+                </catsmdev01>
+                <decom_cadbclmdev01>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </decom_cadbclmdev01>
+                <decom_cadbmaxdev01>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </decom_cadbmaxdev01>
+                <decom_cadbmaxdev02>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </decom_cadbmaxdev02>
+                <decom_cawsclmdev01>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </decom_cawsclmdev01>
+                <decom_p595b28>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2016</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </decom_p595b28>
+                <decom_p595b35>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </decom_p595b35>
+                <p590b1>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.5</CurrentProcessingUnits>
+                </p590b1>
+                <p590b2>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </p590b2>
+                <p590b3>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </p590b3>
+                <p590b4>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </p590b4>
+                <p590b6>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.5</CurrentProcessingUnits>
+                </p590b6>
+                <p595b13>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </p595b13>
+                <p595b22>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p595b22>
+                <p595b29>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p595b29>
+                <p595b30>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.5</CurrentProcessingUnits>
+                </p595b30>
+                <p595b34>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </p595b34>
+                <p595nimctf>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p595nimctf>
+                <p770tsmtest>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </p770tsmtest>
+                <predecom_p595b31>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </predecom_p595b31>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE72X>
+            <Server-9040-MR9-SN78AE73X>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE73X</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>9.8</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>1421824</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>35328</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <caapfaredev04>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredev04>
+                <caapfaredr11>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredr11>
+                <caapfaredr23>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredr23>
+                <caapfaredr3>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredr3>
+                <caapfareprd07>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd07>
+                <caapfareprd09>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd09>
+                <caapfareprd11>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd11>
+                <caapfareprd13>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd13>
+                <caapfareprd26>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd26>
+                <caapfareprd27>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd27>
+                <caapfareqa11>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareqa11>
+                <caapfareqa23>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareqa23>
+                <caapfareqac23>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </caapfareqac23>
+                <caappsprd01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsprd01>
+                <cadbbusdr10>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </cadbbusdr10>
+                <cadbfaredr21>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>4</CurrentProcessingUnits>
+                </cadbfaredr21>
+                <cadbfareqa1>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </cadbfareqa1>
+                <cadbtrpdr01>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </cadbtrpdr01>
+                <caeapsapdev01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </caeapsapdev01>
+                <canimdev01>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>3</CurrentProcessingUnits>
+                </canimdev01>
+                <decom_cadbfaredr14>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </decom_cadbfaredr14>
+                <decom_cadbfaredr8>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </decom_cadbfaredr8>
+                <decom_cadbfaredr9>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </decom_cadbfaredr9>
+                <p595b14>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p595b14>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE73X>
+            <Server-9040-MR9-SN78AE74X>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE74X</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>17.3</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>1382144</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>38656</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <caapfaredev01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.5</CurrentProcessingUnits>
+                </caapfaredev01>
+                <caapfaredr12>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredr12>
+                <caapfaredr22>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredr22>
+                <caapfaredrc11>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredrc11>
+                <caapfaredrc23>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredrc23>
+                <caapfareprd08>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd08>
+                <caapfareprd25>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd25>
+                <caapfareqa07>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </caapfareqa07>
+                <caapfareqa12>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareqa12>
+                <caapfareqa22>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareqa22>
+                <caapfareqac11>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareqac11>
+                <caappsdev12>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev12>
+                <cadbfaredev01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </cadbfaredev01>
+                <caeapsdbdev01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </caeapsdbdev01>
+                <p590b10>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p590b10>
+                <p590b11>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p590b11>
+                <p590b12>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p590b12>
+                <p595b23>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p595b23>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE74X>
+          </Managed-Systems>
+        </cahmc1>
+        <cahmc2>
+          <Managed-Systems>
+            <Server-9040-MR9-SN78AE71X>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE71X</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>4.3</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>836352</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>57600</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <caapfareprd28>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd28>
+                <caapfareprd29>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd29>
+                <caapfareprd30>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd30>
+                <caapfareqa13>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareqa13>
+                <caappsprd02>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsprd02>
+                <caappsprd03>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsprd03>
+                <caappsprd04>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsprd04>
+                <caappsprd05>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsprd05>
+                <caappsprd06>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsprd06>
+                <caappsprd07>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsprd07>
+                <cadbcgndr01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.6</CurrentProcessingUnits>
+                </cadbcgndr01>
+                <cadbelmqat01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.5</CurrentProcessingUnits>
+                </cadbelmqat01>
+                <cadbiamdr01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </cadbiamdr01>
+                <cadbmaxprd03>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </cadbmaxprd03>
+                <cadbpsdr01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.4</CurrentProcessingUnits>
+                </cadbpsdr01>
+                <cadbpsdr02>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </cadbpsdr02>
+                <cadbpsdr03>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </cadbpsdr03>
+                <cahatest1>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </cahatest1>
+                <catsmdr01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </catsmdr01>
+                <decom_caapclmdev01>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </decom_caapclmdev01>
+                <decom_cadbclmdrr01>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.5</CurrentProcessingUnits>
+                </decom_cadbclmdrr01>
+                <decom_cadbmaxprd01>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.4</CurrentProcessingUnits>
+                </decom_cadbmaxprd01>
+                <decom_cadbmaxprd02>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.4</CurrentProcessingUnits>
+                </decom_cadbmaxprd02>
+                <decom_cadbmaxprd04>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </decom_cadbmaxprd04>
+                <decom_cadbmaxprd05>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </decom_cadbmaxprd05>
+                <p595b32>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </p595b32>
+                <p595b33>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.5</CurrentProcessingUnits>
+                </p595b33>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE71X>
+            <Server-9040-MR9-SN78AE72X>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE72X</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>3.9</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>1186816</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>44032</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <caapfaredev02>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </caapfaredev02>
+                <caapfareprd12>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd12>
+                <caappsdev01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev01>
+                <caappsdev02>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev02>
+                <caappsdev03>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev03>
+                <caappsdev04>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev04>
+                <caappsdev05>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev05>
+                <caappsdev06>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev06>
+                <caappsdev07>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev07>
+                <caappsdev08>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev08>
+                <caappsdev09>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev09>
+                <caappsdev10>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev10>
+                <caappsdev11>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev11>
+                <cadbcgndev01>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.6</CurrentProcessingUnits>
+                </cadbcgndev01>
+                <cadbhcmqat01_decom>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </cadbhcmqat01_decom>
+                <cadbiamdev01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </cadbiamdev01>
+                <cahatest2>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.8</CurrentProcessingUnits>
+                </cahatest2>
+                <catsmdev01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.2</CurrentProcessingUnits>
+                </catsmdev01>
+                <decom_cadbclmdev01>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </decom_cadbclmdev01>
+                <decom_cadbmaxdev01>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </decom_cadbmaxdev01>
+                <decom_cadbmaxdev02>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </decom_cadbmaxdev02>
+                <decom_cawsclmdev01>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </decom_cawsclmdev01>
+                <decom_p595b28>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2016</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </decom_p595b28>
+                <decom_p595b35>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </decom_p595b35>
+                <p590b1>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.5</CurrentProcessingUnits>
+                </p590b1>
+                <p590b2>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </p590b2>
+                <p590b3>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </p590b3>
+                <p590b4>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </p590b4>
+                <p590b6>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.5</CurrentProcessingUnits>
+                </p590b6>
+                <p595b13>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </p595b13>
+                <p595b22>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p595b22>
+                <p595b29>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p595b29>
+                <p595b30>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.5</CurrentProcessingUnits>
+                </p595b30>
+                <p595b34>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </p595b34>
+                <p595nimctf>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p595nimctf>
+                <p770tsmtest>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </p770tsmtest>
+                <predecom_p595b31>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </predecom_p595b31>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE72X>
+            <Server-9040-MR9-SN78AE73X>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE73X</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>9.8</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>1421824</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>35328</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <caapfaredev04>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredev04>
+                <caapfaredr11>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredr11>
+                <caapfaredr23>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredr23>
+                <caapfaredr3>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredr3>
+                <caapfareprd07>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd07>
+                <caapfareprd09>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd09>
+                <caapfareprd11>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd11>
+                <caapfareprd13>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd13>
+                <caapfareprd26>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd26>
+                <caapfareprd27>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd27>
+                <caapfareqa11>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareqa11>
+                <caapfareqa23>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareqa23>
+                <caapfareqac23>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </caapfareqac23>
+                <caappsprd01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsprd01>
+                <cadbbusdr10>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </cadbbusdr10>
+                <cadbfaredr21>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>4</CurrentProcessingUnits>
+                </cadbfaredr21>
+                <cadbfareqa1>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </cadbfareqa1>
+                <cadbtrpdr01>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </cadbtrpdr01>
+                <caeapsapdev01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </caeapsapdev01>
+                <canimdev01>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>3</CurrentProcessingUnits>
+                </canimdev01>
+                <decom_cadbfaredr14>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </decom_cadbfaredr14>
+                <decom_cadbfaredr8>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </decom_cadbfaredr8>
+                <decom_cadbfaredr9>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </decom_cadbfaredr9>
+                <p595b14>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p595b14>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE73X>
+            <Server-9040-MR9-SN78AE74X>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE74X</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>17.3</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>1382144</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>38656</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <caapfaredev01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.5</CurrentProcessingUnits>
+                </caapfaredev01>
+                <caapfaredr12>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredr12>
+                <caapfaredr22>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredr22>
+                <caapfaredrc11>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredrc11>
+                <caapfaredrc23>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfaredrc23>
+                <caapfareprd08>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd08>
+                <caapfareprd25>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareprd25>
+                <caapfareqa07>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </caapfareqa07>
+                <caapfareqa12>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareqa12>
+                <caapfareqa22>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareqa22>
+                <caapfareqac11>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caapfareqac11>
+                <caappsdev12>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </caappsdev12>
+                <cadbfaredev01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </cadbfaredev01>
+                <caeapsdbdev01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </caeapsdbdev01>
+                <p590b10>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p590b10>
+                <p590b11>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p590b11>
+                <p590b12>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p590b12>
+                <p595b23>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </p595b23>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE74X>
+          </Managed-Systems>
+        </cahmc2>
+      </Hardware-Management-Consoles>
+    </CTF>
+    <JGB>
+      <Hardware-Management-Consoles>
+        <jahmc1>
+          <Managed-Systems>
+            <Server-9040-MR9-SN78AE6DX>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE6DX</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>14</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>1632000</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>27904</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <jaapfareprd28>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jaapfareprd28>
+                <jaapfareprd29>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jaapfareprd29>
+                <jaappsprd07>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaappsprd07>
+                <jadbhcmprd01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.4</CurrentProcessingUnits>
+                </jadbhcmprd01>
+                <p595a14>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </p595a14>
+                <p595a27>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>3.2</CurrentProcessingUnits>
+                </p595a27>
+                <p595a29>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>3.2</CurrentProcessingUnits>
+                </p595a29>
+                <p650nimjgb>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.8</CurrentProcessingUnits>
+                </p650nimjgb>
+                <p770c11>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p770c11>
+                <p770c23>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p770c23>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE6DX>
+            <Server-9040-MR9-SN78AE6EX>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE6EX</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>9.8</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>1316352</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>37376</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <decom_jadbmaxprd01>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </decom_jadbmaxprd01>
+                <jaapfareprd25>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jaapfareprd25>
+                <jaapfareprd26>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jaapfareprd26>
+                <jaapfareprd27>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jaapfareprd27>
+                <jadbcgnprd01>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jadbcgnprd01>
+                <jadbiamprd01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jadbiamprd01>
+                <jatsmprd03>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jatsmprd03>
+                <jatsmprd04>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.2</CurrentProcessingUnits>
+                </jatsmprd04>
+                <p590a1>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p590a1>
+                <p590a10>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.4</CurrentProcessingUnits>
+                </p590a10>
+                <p590a2>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p590a2>
+                <p590a3>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p590a3>
+                <p590a4>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>3.2</CurrentProcessingUnits>
+                </p590a4>
+                <p590a5_decom>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </p590a5_decom>
+                <p595a13>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </p595a13>
+                <p770adoc3>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p770adoc3>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE6EX>
+            <Server-9040-MR9-SN78AE6FX>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE6FX</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>8.5</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>1387008</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>32000</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <aixtest>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </aixtest>
+                <decom_p770a8>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </decom_p770a8>
+                <decom_p770a9>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </decom_p770a9>
+                <jaapfaredev02>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfaredev02>
+                <jaapfaredev03>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfaredev03>
+                <jaapfareprd03>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfareprd03>
+                <jaapfareprd04>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfareprd04>
+                <jaapfareprd05>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfareprd05>
+                <jaapfareprd06>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfareprd06>
+                <jaapfareprd10>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfareprd10>
+                <jaapfareprd30>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jaapfareprd30>
+                <jaapfareqa10>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </jaapfareqa10>
+                <jatsmprd02>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jatsmprd02>
+                <p770a11>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.5</CurrentProcessingUnits>
+                </p770a11>
+                <p770a12>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.5</CurrentProcessingUnits>
+                </p770a12>
+                <p770a21>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>3.2</CurrentProcessingUnits>
+                </p770a21>
+                <p770a22>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p770a22>
+                <p770a23>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p770a23>
+                <p770sysd1>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>3.2</CurrentProcessingUnits>
+                </p770sysd1>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE6FX>
+            <Server-9040-MR9-SN78AE70X>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE70X</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>18</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>1747968</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>26624</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <jaapfaredev05>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfaredev05>
+                <jaapfareprd12>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </jaapfareprd12>
+                <jaappsprd01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaappsprd01>
+                <jaappsprd02>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaappsprd02>
+                <jaappsprd03>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </jaappsprd03>
+                <jaappsprd04>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </jaappsprd04>
+                <jaappsprd05>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </jaappsprd05>
+                <jaappsprd06>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </jaappsprd06>
+                <jadbelmprd01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jadbelmprd01>
+                <janimprd01>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.4</CurrentProcessingUnits>
+                </janimprd01>
+                <jatsmprd05>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </jatsmprd05>
+                <jcentos7t>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </jcentos7t>
+                <jcentos8t>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </jcentos8t>
+                <jfedora31t>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </jfedora31t>
+                <jlpowervc>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </jlpowervc>
+                <josl151t>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </josl151t>
+                <jrhel77t>
+                  <OperatingSystemVersion>Linux/Red Hat Enterprise Linux Server 3.10.0-1062.9.1.el7.ppc647.7 (Maipo) 7.7 (Maipo)</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </jrhel77t>
+                <jrhel81t>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </jrhel81t>
+                <jubuntu18t>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </jubuntu18t>
+                <p590a6>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.4</CurrentProcessingUnits>
+                </p590a6>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE70X>
+          </Managed-Systems>
+        </jahmc1>
+        <jahmc2>
+          <Managed-Systems>
+            <Server-9040-MR9-SN78AE6DX>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE6DX</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>14</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>1632000</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>27904</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <jaapfareprd28>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jaapfareprd28>
+                <jaapfareprd29>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jaapfareprd29>
+                <jaappsprd07>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaappsprd07>
+                <jadbhcmprd01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.4</CurrentProcessingUnits>
+                </jadbhcmprd01>
+                <p595a14>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </p595a14>
+                <p595a27>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>3.2</CurrentProcessingUnits>
+                </p595a27>
+                <p595a29>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>3.2</CurrentProcessingUnits>
+                </p595a29>
+                <p650nimjgb>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.8</CurrentProcessingUnits>
+                </p650nimjgb>
+                <p770c11>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p770c11>
+                <p770c23>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p770c23>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE6DX>
+            <Server-9040-MR9-SN78AE6EX>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE6EX</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>9.8</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>1316352</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>37376</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <decom_jadbmaxprd01>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </decom_jadbmaxprd01>
+                <jaapfareprd25>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jaapfareprd25>
+                <jaapfareprd26>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jaapfareprd26>
+                <jaapfareprd27>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jaapfareprd27>
+                <jadbcgnprd01>
+                  <OperatingSystemVersion>AIX 7.2 7200-05-01-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jadbcgnprd01>
+                <jadbiamprd01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jadbiamprd01>
+                <jatsmprd03>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jatsmprd03>
+                <jatsmprd04>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.2</CurrentProcessingUnits>
+                </jatsmprd04>
+                <p590a1>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p590a1>
+                <p590a10>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.4</CurrentProcessingUnits>
+                </p590a10>
+                <p590a2>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p590a2>
+                <p590a3>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p590a3>
+                <p590a4>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>3.2</CurrentProcessingUnits>
+                </p590a4>
+                <p590a5_decom>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0</CurrentProcessingUnits>
+                </p590a5_decom>
+                <p595a13>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </p595a13>
+                <p770adoc3>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p770adoc3>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE6EX>
+            <Server-9040-MR9-SN78AE6FX>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE6FX</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>8.5</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>1387008</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>32000</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <aixtest>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-07-2038</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.4</CurrentProcessingUnits>
+                </aixtest>
+                <decom_p770a8>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </decom_p770a8>
+                <decom_p770a9>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </decom_p770a9>
+                <jaapfaredev02>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfaredev02>
+                <jaapfaredev03>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfaredev03>
+                <jaapfareprd03>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfareprd03>
+                <jaapfareprd04>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfareprd04>
+                <jaapfareprd05>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfareprd05>
+                <jaapfareprd06>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfareprd06>
+                <jaapfareprd10>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfareprd10>
+                <jaapfareprd30>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jaapfareprd30>
+                <jaapfareqa10>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </jaapfareqa10>
+                <jatsmprd02>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jatsmprd02>
+                <p770a11>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.5</CurrentProcessingUnits>
+                </p770a11>
+                <p770a12>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.5</CurrentProcessingUnits>
+                </p770a12>
+                <p770a21>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>3.2</CurrentProcessingUnits>
+                </p770a21>
+                <p770a22>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p770a22>
+                <p770a23>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </p770a23>
+                <p770sysd1>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>3.2</CurrentProcessingUnits>
+                </p770sysd1>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE6FX>
+            <Server-9040-MR9-SN78AE70X>
+              <MachineType>9040</MachineType>
+              <Model>MR9</Model>
+              <SerialNumber>78AE70X</SerialNumber>
+              <InstalledSystemProcessorUnits>48</InstalledSystemProcessorUnits>
+              <ConfigurableSystemProcessorUnits>36</ConfigurableSystemProcessorUnits>
+              <CurrentAvailableSystemProcessorUnits>18</CurrentAvailableSystemProcessorUnits>
+              <InstalledSystemMemory>2097152</InstalledSystemMemory>
+              <ConfigurableSystemMemory>2097152</ConfigurableSystemMemory>
+              <CurrentAvailableSystemMemory>1747968</CurrentAvailableSystemMemory>
+              <MemoryUsedByHypervisor>26624</MemoryUsedByHypervisor>
+              <Logical-Partitions>
+                <jaapfaredev05>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaapfaredev05>
+                <jaapfareprd12>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </jaapfareprd12>
+                <jaappsprd01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaappsprd01>
+                <jaappsprd02>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1</CurrentProcessingUnits>
+                </jaappsprd02>
+                <jaappsprd03>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </jaappsprd03>
+                <jaappsprd04>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </jaappsprd04>
+                <jaappsprd05>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </jaappsprd05>
+                <jaappsprd06>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.8</CurrentProcessingUnits>
+                </jaappsprd06>
+                <jadbelmprd01>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>1.6</CurrentProcessingUnits>
+                </jadbelmprd01>
+                <janimprd01>
+                  <OperatingSystemVersion>AIX 7.2 7200-04-02-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.4</CurrentProcessingUnits>
+                </janimprd01>
+                <jatsmprd05>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2</CurrentProcessingUnits>
+                </jatsmprd05>
+                <jcentos7t>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </jcentos7t>
+                <jcentos8t>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </jcentos8t>
+                <jfedora31t>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </jfedora31t>
+                <jlpowervc>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </jlpowervc>
+                <josl151t>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </josl151t>
+                <jrhel77t>
+                  <OperatingSystemVersion>Linux/Red Hat Enterprise Linux Server 3.10.0-1062.9.1.el7.ppc647.7 (Maipo) 7.7 (Maipo)</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </jrhel77t>
+                <jrhel81t>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </jrhel81t>
+                <jubuntu18t>
+                  <OperatingSystemVersion>Unknown</OperatingSystemVersion>
+                  <CurrentProcessingUnits>0.2</CurrentProcessingUnits>
+                </jubuntu18t>
+                <p590a6>
+                  <OperatingSystemVersion>AIX 7.1 7100-05-06-2028</OperatingSystemVersion>
+                  <CurrentProcessingUnits>2.4</CurrentProcessingUnits>
+                </p590a6>
+              </Logical-Partitions>
+            </Server-9040-MR9-SN78AE70X>
+          </Managed-Systems>
+        </jahmc2>
+      </Hardware-Management-Consoles>
+    </JGB>
+  </sites>
+</IBM-POWER-SYSTEMS>
+

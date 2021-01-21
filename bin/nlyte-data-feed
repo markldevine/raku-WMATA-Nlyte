@@ -17,7 +17,7 @@ my %options;
 %options<optimize>  = False;
 #%options<optimize>  = True;
 
-my $redis           = Redis.new("127.0.0.1:6379");
+#my $redis           = Redis.new("127.0.0.1:6379");
 
 my %sites                       = (
                                     CTF => ['cahmc1','cahmc2'],
@@ -121,11 +121,11 @@ for %sites.keys.sort -> $site-name {
                     $CurrentProcessingUnits.nodeValue                               = %data{$managed-system-name}<LogicalPartition>{$lpar-name}<CurrentProcessingUnits>;
                 }
             }
-            $redis.setex($hmc-name ~ ':JSON', 3600, to-json(%data));
+#           $redis.setex($hmc-name ~ ':JSON', 3600, to-json(%data));
         }
     }
 }
-$redis.setex('XML',  3600, $doc.Str(:format));
+#$redis.setex('XML',  3600, $doc.Str(:format));
 
 say $doc.Str: :format;
 
